@@ -21,5 +21,23 @@ public class SumOfAnArrayTest {
 		int [] values = new int[] {1, 2, 3, 4, 5, 6};
 		assertEquals(21, sumOfAnArray.checkSumOfAnArray(values));
 	}
+	
+	@Test
+	public void sumOfNegativeValues() {
+		int [] values = new int[] {-1, -2, -3, -4, -5, -6};
+		assertEquals(-21, sumOfAnArray.checkSumOfAnArray(values));
+	}
+	
+	@Test
+	public void sumOfemptyArrayGivesZero() {
+		int [] values = new int[] {};
+		assertEquals(0, sumOfAnArray.checkSumOfAnArray(values));
+	}
+	
+	@Test
+	public void sumOfNullGivesZero() {
+		int [] values = null;
+		assertEquals(0, sumOfAnArray.checkSumOfAnArray(values));
+	}
 
 }
