@@ -1,11 +1,11 @@
 package algorithms.beginnersLevelTest;
 
-import static org.junit.Assert.assertEquals;
 
+import algorithms.beginnersLevel.CountQuantityOfVariableInArray;
 import org.junit.Before;
 import org.junit.Test;
 
-import algorithms.beginnersLevel.CountQuantityOfVariableInArray;
+import static org.junit.Assert.assertEquals;
 
 public class CountQuantityOfVariableInArrayTest {
 
