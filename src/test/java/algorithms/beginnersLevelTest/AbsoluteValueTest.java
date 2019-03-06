@@ -19,7 +19,7 @@ public class AbsoluteValueTest {
 	@Test
 	public void positiveValueTest() {
 		int number = 4;
-		assertEquals(5, value.checkNumber(number));
+		assertEquals(4, value.checkNumber(number));
 	}
 	
 	@Test
