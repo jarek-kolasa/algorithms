@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c322e0b-3039-4b1a-9fc9-48694e77eada" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithms/beginnersLevel/Exponentiation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithms/beginnersLevel/Exponentiation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/algorithms/beginnersLevelTest/AbsoluteValueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/algorithms/beginnersLevelTest/AbsoluteValueTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/algorithms/beginnersLevelTest/ExponentiationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/algorithms/beginnersLevelTest/ExponentiationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/algorithms/beginnersLevelTest/AbsoluteValueTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/algorithms/beginnersLevelTest/AbsoluteValueTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,22 +15,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/algorithms/beginnersLevelTest/ExponentiationTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/beginnersLevel/ArithmeticAverage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="56" column="66" selection-start-line="56" selection-start-column="66" selection-end-line="56" selection-end-column="66" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="51">
+              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/beginnersLevel/Exponentiation.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/algorithms/beginnersLevel/ArithmeticAverageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+            <state relative-caret-position="290">
+              <caret line="55" column="24" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#207#208#0" expanded="true" />
+                <element signature="e#255#256#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -45,8 +42,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -71,6 +68,8 @@
         <option value="$PROJECT_DIR$/src/test/java/algorithms/beginnersLevelTest/AbsoluteValueTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/algorithms/beginnersLevel/Exponentiation.java" />
         <option value="$PROJECT_DIR$/src/test/java/algorithms/beginnersLevelTest/ExponentiationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/algorithms/beginnersLevel/ArithmeticAverageTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algorithms/beginnersLevel/ArithmeticAverage.java" />
       </list>
     </option>
   </component>
@@ -81,7 +80,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="85" />
     <option name="y" value="25" />
     <option name="width" value="1750" />
@@ -95,8 +94,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -146,14 +143,6 @@
             <path>
               <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="beginnersLevelTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -177,6 +166,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -184,7 +175,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551904005067" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551986312923" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -212,7 +203,38 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ExponentiationTest">
+  <component name="RunManager" selected="JUnit.ArithmeticAverageTest">
+    <configuration name="ArithmeticAverageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithms.beginnersLevel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="algorithms.beginnersLevel" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.beginnersLevel.ArithmeticAverageTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArithmeticAverageTest.returnZeroIfArrayIsEmptyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithms.beginnersLevel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="algorithms.beginnersLevel" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.beginnersLevel.ArithmeticAverageTest" />
+      <option name="METHOD_NAME" value="returnZeroIfArrayIsEmptyTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ExponentiationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithms" />
       <extension name="coverage">
@@ -260,45 +282,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExponentiationTest.return27IfThreeToThirdPower" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithms.beginnersLevelTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="algorithms.beginnersLevelTest" />
-      <option name="MAIN_CLASS_NAME" value="algorithms.beginnersLevelTest.ExponentiationTest" />
-      <option name="METHOD_NAME" value="return27IfThreeToThirdPower" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExponentiationTest.returnFourIfTwoToSecondPower" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithms.beginnersLevelTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="algorithms.beginnersLevelTest" />
-      <option name="MAIN_CLASS_NAME" value="algorithms.beginnersLevelTest.ExponentiationTest" />
-      <option name="METHOD_NAME" value="returnFourIfTwoToSecondPower" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ArithmeticAverageTest" />
+        <item itemvalue="JUnit.ArithmeticAverageTest.returnZeroIfArrayIsEmptyTest" />
         <item itemvalue="JUnit.ExponentiationTest" />
         <item itemvalue="JUnit.ExponentiationTest.return0037IfThreeToMinusThreePower" />
         <item itemvalue="JUnit.ExponentiationTest.return025IfTwoToMinusSecondPower" />
-        <item itemvalue="JUnit.ExponentiationTest.return27IfThreeToThirdPower" />
-        <item itemvalue="JUnit.ExponentiationTest.returnFourIfTwoToSecondPower" />
       </list>
     </recent_temporary>
   </component>
@@ -316,42 +306,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FindAnElementInArrayWithSentryTest - 2019.03.06 at 21h 04m 59s.xml">
-      <configuration name="FindAnElementInArrayWithSentryTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FindMinValueOfAnArrayTest - 2019.03.06 at 21h 05m 05s.xml">
-      <configuration name="FindMinValueOfAnArrayTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SumOfAnArrayTest - 2019.03.06 at 21h 05m 11s.xml">
-      <configuration name="SumOfAnArrayTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SumOfIntegersTest - 2019.03.06 at 21h 05m 16s.xml">
-      <configuration name="SumOfIntegersTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExponentiationTest_returnFourIfTwoToSecondPower - 2019.03.06 at 21h 06m 34s.xml">
-      <configuration name="ExponentiationTest.returnFourIfTwoToSecondPower" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExponentiationTest_return27IfThreeToThirdPower - 2019.03.06 at 21h 08m 05s.xml">
-      <configuration name="ExponentiationTest.return27IfThreeToThirdPower" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExponentiationTest - 2019.03.06 at 21h 17m 50s.xml">
+    <history-entry file="ExponentiationTest - 2019.03.06 at 21h 26m 47s.xml">
       <configuration name="ExponentiationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExponentiationTest - 2019.03.06 at 21h 18m 45s.xml">
-      <configuration name="ExponentiationTest" configurationId="JUnit" />
+    <history-entry file="ArithmeticAverageTest_returnZeroIfArrayIsEmptyTest - 2019.03.07 at 20h 05m 23s.xml">
+      <configuration name="ArithmeticAverageTest.returnZeroIfArrayIsEmptyTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExponentiationTest - 2019.03.06 at 21h 19m 08s.xml">
-      <configuration name="ExponentiationTest" configurationId="JUnit" />
+    <history-entry file="ArithmeticAverageTest_returnZeroIfArrayIsEmptyTest - 2019.03.07 at 20h 06m 01s.xml">
+      <configuration name="ArithmeticAverageTest.returnZeroIfArrayIsEmptyTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExponentiationTest - 2019.03.06 at 21h 21m 00s.xml">
-      <configuration name="ExponentiationTest" configurationId="JUnit" />
+    <history-entry file="ArithmeticAverageTest - 2019.03.07 at 20h 06m 05s.xml">
+      <configuration name="ArithmeticAverageTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArithmeticAverageTest - 2019.03.07 at 20h 07m 21s.xml">
+      <configuration name="ArithmeticAverageTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArithmeticAverageTest - 2019.03.07 at 20h 10m 24s.xml">
+      <configuration name="ArithmeticAverageTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArithmeticAverageTest - 2019.03.07 at 20h 10m 59s.xml">
+      <configuration name="ArithmeticAverageTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArithmeticAverageTest - 2019.03.07 at 20h 12m 02s.xml">
+      <configuration name="ArithmeticAverageTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArithmeticAverageTest - 2019.03.07 at 20h 13m 33s.xml">
+      <configuration name="ArithmeticAverageTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArithmeticAverageTest - 2019.03.07 at 20h 15m 45s.xml">
+      <configuration name="ArithmeticAverageTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24496645" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24832214" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -523,6 +513,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/algorithms/beginnersLevelTest/ExponentiationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/beginnersLevel/Exponentiation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -530,13 +530,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/algorithms/beginnersLevelTest/ExponentiationTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/algorithms/beginnersLevel/ArithmeticAverageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="56" column="66" selection-start-line="56" selection-start-column="66" selection-end-line="56" selection-end-column="66" />
+        <state relative-caret-position="290">
+          <caret line="55" column="24" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/beginnersLevel/ArithmeticAverage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
         </state>
       </provider>
     </entry>
